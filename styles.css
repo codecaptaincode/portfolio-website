@@ -2,6 +2,7 @@
 
 header nav {
     margin-right: 20px;
+    text-shadow: 1.5px 1.5px 3.5px rgba(0, 0, 0, 0.3);
 }
 
 header nav ul {
@@ -23,14 +24,21 @@ header nav ul li a {
     font-size: 20px;
 }
 
+header nav ul li a:hover {
+    color: #00E0C6;
+}
+
 header {
     width: 100%;
     padding: 20px 0;
 }
 
 body {
-    background-color: #2d3033;
-    color: #00B5AD;
+    /* background-color: #2d3033; */
+    background: repeating-conic-gradient(from 45deg, rgba(0, 0, 0, 0.12) 0% 25%, rgba(38, 43, 48, 0.99) 0% 50%);
+    background-size: 100px 100px;
+    background-color: rgba(38, 43, 48, 0.99);
+    color: #00b5ad;
     font-family: "Oswald", sans-serif;
     margin: 0;
     padding: 0;
@@ -53,11 +61,13 @@ h1 {
     font-size: 52px;
     font-weight: 700;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 p {
     font-size: 24px;
     margin-bottom: 20px;
+    text-shadow: 1.5px 1.5px 3.5px rgba(0, 0, 0, 0.3);
 }
 
 .profile-photo {
@@ -67,6 +77,7 @@ p {
     object-fit: cover; 
     border: 2px solid #00B5AD; 
     margin: 50px auto 0 auto;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.9);
 }
 
 .nyc-skyline {
@@ -80,21 +91,55 @@ section {
     margin-top: 55px;
 }
 
+section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #00B5AD;
+    display: inline-block;
+}
+#about {
+    margin-top: 75px;
+    margin-bottom: 200px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#skills-experience {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#projects {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 .contact-horizontal {
     list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    text-shadow: 1.5px 1.5px 3.5px rgba(0, 0, 0, 0.3);
 }
 
 .contact-horizontal li {
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
 .icon {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     vertical-align: middle;
     margin-right: 8px;
 }
@@ -134,3 +179,4 @@ footer {
     font-size: 12px; 
     color: #00B5AD; 
 }
+

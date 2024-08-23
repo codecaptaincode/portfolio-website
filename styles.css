@@ -281,3 +281,13 @@ footer {
     color: #00B5AD; 
 }
 
+.play-game-btn {
+    color: #FFFFFF; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+.play-game-btn:hover {
+    background-color: #00E0C6; 
+}
